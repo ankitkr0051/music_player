@@ -185,7 +185,7 @@ let singer_name = document.getElementById("singer_name");
 singer_name.innerHTML="Music_Studio"
 
 let artist_img = document.getElementsByClassName("artist_img");
-artist_img[0].innerHTML=`<img src="main_img/main.jfif" alt="" srcset=""> `
+artist_img[0].innerHTML=`<img src="main_img/bg.png" alt="" srcset=""> `
 console.log(artist_img)
 //-------------------------------------------------------------------------
 
