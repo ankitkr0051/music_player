@@ -1,5 +1,5 @@
 
-const music = new Audio("audio/10.mp3");
+const music = new Audio("audio/17.mp3");
 
 //music.play();
 const songs = [
@@ -179,7 +179,7 @@ const artists = [
 // things to chang --------------------------------------------------
 
 //title change 
-//play
+
 //follow
 let singer_name = document.getElementById("singer_name");
 singer_name.innerHTML="Music_Studio"
@@ -623,6 +623,18 @@ Array.from(card_clicked).forEach((element,i) => {
   
 });
 
+
+//play
+let play = document.getElementById("play");
+play.addEventListener("click",(e)=>{
+  random_music();
+})
+
+//follow
+let follow = document.getElementById("follow");
+follow.addEventListener("click",(e)=>{
+  Location.href="https://twitter.com/arijitsingh";
+})
 
 
 

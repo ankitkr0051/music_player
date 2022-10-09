@@ -480,7 +480,7 @@ let pop_art_left = document.getElementById("pop_art_left");
 let pop_art_right = document.getElementById("pop_art_right");
 let item = document.getElementsByClassName("item");
 
-pop_art_right.addEventListener("click", () => {
+pop_art_right.addEventListener("click", () => {e
   // console.log("clicked")
   item[0].scrollLeft += 315;
 });
@@ -593,3 +593,17 @@ Array.from(card_clicked).forEach((element,i) => {
 });
 
 
+//play
+let play = document.getElementById("play");
+play.addEventListener("click",(e)=>{
+  random_music();
+})
+
+
+
+//follow
+let follow = document.getElementById("follow");
+follow.addEventListener("click",(e)=>{
+  window.open("https://twitter.com/arijitsingh","_blank");
+
+})
