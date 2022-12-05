@@ -101,46 +101,46 @@ const artists = [
     art_Name: "arjit",
    
   },
-  {
-    id: 2,
-    art_Name: "dhvani",
+//   {
+//     id: 2,
+//     art_Name: "dhvani",
    
-  },
-  {
-    id: 3,
-    art_Name: "neha",
+//   },
+//   {
+//     id: 3,
+//     art_Name: "neha",
    
-  },
-  {
-    id: 4,
-    art_Name: "jubin",
+//   },
+//   {
+//     id: 4,
+//     art_Name: "jubin",
    
-  },
-  {
-    id: 5,
-    art_Name: "guru",
+//   },
+//   {
+//     id: 5,
+//     art_Name: "guru",
    
-  },
-  {
-    id: 6,
-    art_Name: "akhil",
+//   },
+//   {
+//     id: 6,
+//     art_Name: "akhil",
    
-  },
-  {
-    id: 7,
-    art_Name: "honey",
+//   },
+//   {
+//     id: 7,
+//     art_Name: "honey",
    
-  },
-  {
-    id: 8,
-    art_Name: "Diljit",
+//   },
+//   {
+//     id: 8,
+//     art_Name: "Diljit",
    
-  },
-  {
-    id: 8,
-    art_Name: "alan",
+//   },
+//   {
+//     id: 8,
+//     art_Name: "alan",
    
-  },
+//   },
   
 ];
 
